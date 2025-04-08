@@ -13,6 +13,7 @@ spring:
     admin:
       client:
         url: http://localhost:1111
+        
       instance:
         service-base-url: http://localhost:8081
         health-url: http://localhost:8081/actuator/health

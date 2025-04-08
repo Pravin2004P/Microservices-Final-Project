@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SbmsAdminServerApplication<sbms-admin-server>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pravin.sbms_admin_server.SbmsAdminServerApplication",
+      "projectName": "sbms-admin-server",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SbmsServiceRegistryApplication<sbms-service-registry>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pravin.sbms_service_registry.SbmsServiceRegistryApplication",
+      "projectName": "sbms-service-registry",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SbmsWelcomeApplication<sbms-welcome>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pravin.sbms_welcome.SbmsWelcomeApplication",
+      "projectName": "sbms-welcome",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SbmsWelcomeClientApplication<sbms-welcome-client>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.pravin.sbms_welcome_client.SbmsWelcomeClientApplication",
+      "projectName": "sbms-welcome-client",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
